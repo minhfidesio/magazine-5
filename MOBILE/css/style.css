@@ -158,10 +158,39 @@ input[type=text], input[type=tel], textarea {
     display: inline-block;
     margin-right: 10px;
 }
+.font-bold{
+    font-weight: bold;
+    font-style: italic;
+
+    margin-bottom:10px;
+    }
+.img-fullsize{
+    width:100%;
+}
+.outline{
+    padding-left: 10px;
+}
+.pic-bkav{
+    padding:0px !important;
+    width:100%;
+}
+.cach_dong{
+    margin-top:10px;
+}
+.text-giua{
+    margin-bottom: 10px;
+}
+p{
+    font-family: Arimo;
+}
 .noidung-iphone{
     display: block;
     overflow: hidden;
     width: 100%;
+    margin-top: 20px;
+}
+.edit_c{
+    margin-top: 17px !important;
 }
 .nen-trang{
     background: #fff;
@@ -172,7 +201,7 @@ input[type=text], input[type=tel], textarea {
     zoom: 0.5;
 }
 .noidung-iphone .nen-trang .text-icon{
-    margin: 33px 1px 0 0;
+    margin: 20px 1px 0 0;
     zoom: 0.6;
 }
 .nen-trang a,
@@ -201,7 +230,7 @@ input[type=text], input[type=tel], textarea {
 .font-normal{
     font-size: 18px;
     font-weight: 300;
-    padding: 10px 0;
+    /*padding: 10px 0;*/
     line-height: 35px
 }
 .pic-text{
@@ -210,6 +239,15 @@ input[type=text], input[type=tel], textarea {
     max-width: 640px;
     overflow: hidden;
     margin: auto;
+}
+.xem_them_ul{
+    padding: 10px;
+}
+.img-mobiistar{
+    width:100%;
+}
+.img-bphone3{
+    width:100%;
 }
 .pic-text img{
     height: auto;

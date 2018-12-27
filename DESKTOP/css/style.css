@@ -36,19 +36,21 @@ input[type=text], input[type=tel], textarea {
 }
 p{
     font-family: Arimo;
+    font-size: 17px !important;
+    line-height: 30px !important;
 }
 .row{
     display: flex;
 }
 .block-left{
     float: left;
-    margin-left: 50px;
+    margin-left: 0px;
     margin-right: 25px; 
     flex: 50%;
 }
 .block-right{
     float: right;
-    margin-left: 25px;
+    margin-left: 15px;
     margin-right: 50px;
     flex: 50%;
 }
@@ -74,7 +76,7 @@ p{
     margin-bottom: 8px;
 }
 .xem_them_ul{
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 .wrapper-tt{
     font-family: 'Open Sans', sans-serif;
@@ -136,7 +138,7 @@ p{
     max-width: 1920px
 }
 .nam2017, .nam2016, .nam2015, .nam2014{
-    margin-top: 30px
+    margin-top: 0px
 }
 .tomtat{
     width: 80%;
@@ -166,7 +168,7 @@ p{
     line-height: 26px;
 }
 .container{
-    max-width: 1200px;
+    max-width: 950px;
     margin: auto;
 }
 .font-bold{
@@ -188,17 +190,28 @@ p{
 }
 .tomtat-noidung01{
     display: block;
-    overflow: hidden;
     /*width: 70%;*/
     /* float:right; */
     margin: auto;
     /* margin-right: 270px; */
     /* margin-bottom: 20px; */
     background: #ededed;
-    padding: 20px;
+    padding: 0px;
     font-size: 18px;
     line-height: 35px;
     max-width: 1200px;
+}
+.tomtat-noidung02{
+    display: block;
+    /*width: 70%;*/
+    /* float:right; */
+    margin: auto;
+    /* margin-right: 270px; */
+    /* margin-bottom: 20px; */
+    background: #ededed;
+    padding: 0px;
+    font-size: 18px;
+    line-height: 35px;
 }
 .tomtat-noidung h2{
     display: block;
@@ -256,6 +269,7 @@ p{
 .noidung a{
     color: #a42c36;
     text-decoration: underline;
+    font-size: 17px !important;
 }
 .font-italic{
     font-weight: 600;
@@ -315,7 +329,6 @@ p{
     max-width: 1200px;
     overflow: hidden;
     margin: auto;
-    padding-bottom: 25px
 }
 .pic-text01 img{
     float: left;
@@ -391,7 +404,7 @@ p{
 .img-center{
     display: block;
     max-width: 1200px;
-    width: auto;
+    width: 700px;
     margin: auto;
     overflow: hidden;
     margin-bottom: 15px
@@ -399,7 +412,7 @@ p{
 .img-center01{
     display: block;
     /*max-width: 600px;*/
-    width: auto;
+    width: 700px;
     margin: 50px auto 0px auto;
     overflow: hidden;
     margin-bottom: 15px
