@@ -113,6 +113,9 @@ input[type=text], input[type=tel], textarea {
 .nam2015 .pic-text {
     margin-bottom: 50px;
 }
+.img-fullsize{
+    width: 100%;
+}
 .wrapper-tt .img-fullsize,
 .noidung-iphone .img-fullsize{
     position: relative;
